@@ -38,7 +38,7 @@ header{
     align-items: center;
     justify-content:center;
     gap:60px;
-    background-color: rgb(88, 86, 86);
+    background-color: rgb(128, 127, 127);
     border-radius: 10px;
 }
 
@@ -49,7 +49,7 @@ header h1{
 
 }
 header h1 i{
-    color: lightslategray;
+    color: rgb(51, 68, 139);
     font-size: 25px;
 }
 
@@ -57,6 +57,10 @@ header h1 i{
     color: lightgray;
     font-size: 25px;
     padding: 10px;
+}
+
+.redes-sociais a:hover{
+    color: rgb(51, 68, 139);
 }
 
 .foto1{
@@ -79,7 +83,7 @@ header h1 i{
 }
 
 .biografia p{
-    text-align: justify;
+    text-align:center;
 }
 .fotoCertificado{
     width: 50%; 
@@ -103,33 +107,35 @@ header h1 i{
     flex-flow: wrap;
     gap: 30px;
     align-items: center;
-    justify-content: center;
-    
-
+    justify-content: center; 
 }
+
+
 
 .videos a{
     height: 800px;
+    align-items: center;
+    justify-content: center;
 }
 
 .videos a:hover{
     border: 2px solid #fff;
-   
-    /* transform: rotateZ(-5deg) ; */
+    /*transform: rotateZ(-5deg) ; */
     transform: scale(0.9);
-    transition: 1s ease;
-    
-        
-}
+    transition: 1s ease;   
+} 
 
 .contatos{
     display: flex;
-    gap: 20px;
-
-    
+    gap: 20px; 
 }
 
 .contatos a{
     color: lightgray;
     font-size: 25px;
+}
+
+.contatos a:hover{
+    color: rgb(51, 68, 139);
+    
 }

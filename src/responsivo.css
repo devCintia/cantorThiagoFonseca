@@ -1,52 +1,63 @@
 @media (max-width:1160px) {
-    .header{
+    .header {
         display: flex;
         flex-wrap: wrap;
-        position:absolute;
+        position: absolute;
         left: 10px;
         right: 10px;
-        
     }
-.header h1{
-    letter-spacing: normal;
-    padding: 0;
-    justify-content:space-between;
-    gap: 0;
-}
-    .redes-sociais{
-        display: none;
-       
+
+    .header h1 {
+        letter-spacing: normal;
+        padding: 0;
+        justify-content: space-between;
+        gap: 0;
     }
-    .biografia p{
+
+    .biografia p {
         font-size: 15px;
     }
-    
-    .gravacoes h2{
+
+    .gravacoes h2 {
         font-size: 20px;
         align-items: center;
     }
 }
 
-@media(max-width:670px){
-    .biografia{
+@media(max-width:670px) {
+    .biografia {
         position: static;
-        top:180px;
-        
+        top: 180px;
     }
 
-    .gravacoes{
+    .redes-sociais {
+        display: none;
+    }
+
+    .gravacoes {
         position: relative;
-        top:350px;
+        top: 360px;
     }
 
-    footer{
+    footer {
         position: relative;
         top: 300px;
         margin-bottom: 25px;
     }
 }
-@media(max-width:460px){
-    .header{
-        background-color:transparent;
+
+@media(max-width:460px) {
+    .header {
+        background-color: transparent;
+    }
+
+    .biografia {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .gravacoes {
+        position: relative;
+        top: 400px;
     }
 }
