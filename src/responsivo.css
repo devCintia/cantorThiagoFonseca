@@ -2,9 +2,6 @@
     .header {
         display: flex;
         flex-wrap: wrap;
-        position: absolute;
-        left: 10px;
-        right: 10px;
     }
 
     .header h1 {
@@ -15,7 +12,12 @@
     }
 
     .biografia p {
-        font-size: 15px;
+        font-size: 18px;
+    }
+
+    .videos {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .gravacoes h2 {
@@ -24,31 +26,44 @@
     }
 }
 
-@media(max-width:670px) {
-    .biografia {
-        position: static;
-        top: 180px;
+@media(max-width:825px) {
+
+
+
+    .contatos {
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
+
+    .contatos a {
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+
+@media(max-width:670px) {
+
 
     .redes-sociais {
         display: none;
     }
 
-    .gravacoes {
-        position: relative;
-        top: 360px;
-    }
 
-    footer {
-        position: relative;
-        top: 300px;
-        margin-bottom: 25px;
-    }
+
+
 }
 
 @media(max-width:460px) {
     .header {
-        background-color: transparent;
+        background: transparent;
+        font-size: 12px;
     }
 
     .biografia {
@@ -56,8 +71,5 @@
         padding: 5px;
     }
 
-    .gravacoes {
-        position: relative;
-        top: 400px;
-    }
+
 }
